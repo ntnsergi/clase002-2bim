@@ -41,7 +41,7 @@ class NumeroTelefonicoAdmin(admin.ModelAdmin):
     # raw_id_fields que permite acceder a una interfaz
     # para buscar los estudiantes y seleccionar el que
     # se desee
-    raw_id_fields = ('estudiante',)
+    # raw_id_fields = ('estudiante',)
 
     def get_estudiante(self, obj):
         """ """
